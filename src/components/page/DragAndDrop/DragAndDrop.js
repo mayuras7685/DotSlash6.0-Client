@@ -151,14 +151,14 @@ const DragAndDrop = () => {
       )}
       {files.length == 0 && (
         <div className="md:h-1/5 md:py-32 md:w-3/5 mx-2 mt-10 flex flex-col justify-center items-start bg-header border-2 border-black-200 p-5 rounded-md font-playfair">
-          <h1 className="md:text-4xl text-xl text-white">
+          <h1 className="md:text-4xl text-xl ">
             Ever wonder how you can get organized with tons of books and
             articles you have?
           </h1>
-          <h1 className="md:text-xl text-md mt-5 text-white">
+          <h1 className="md:text-xl text-md mt-5 ">
             We got your back,
           </h1>
-          <h1 className="md:text-xl text-md text-white">
+          <h1 className="md:text-xl text-md ">
             Using Machine Learning Algorithms, we will identify which category
             each of your items belongs.
           </h1>
