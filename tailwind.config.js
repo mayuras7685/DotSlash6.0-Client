@@ -8,10 +8,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        body: "#ffffff",
-        header: "#2563eb",
-        button: "",
-        footer: "#ffffff",
+      'body': '#FDF6EC',
+        'header': '#fae9d1',
+        'button': '#FFD8A9',
+        'footer': '#FFEDDB'
       },
     },
   },
