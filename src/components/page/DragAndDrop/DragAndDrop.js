@@ -71,6 +71,7 @@ const DragAndDrop = () => {
       await fetch(api_loc + "predict", {
         method: "post",
         body: data,
+        mode: 'no-cors',
       }).then(async (res) => {
         if (res.status == "200") {
           const p = await res.json()
