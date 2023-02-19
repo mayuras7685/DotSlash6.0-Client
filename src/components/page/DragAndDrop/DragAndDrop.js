@@ -68,7 +68,7 @@ const DragAndDrop = () => {
       const data = new FormData()
       data.append(d.path, d)
 
-      await fetch(api_loc + "/predict", {
+      await fetch(api_loc + "predict", {
         method: "post",
         body: data,
       }).then(async (res) => {
