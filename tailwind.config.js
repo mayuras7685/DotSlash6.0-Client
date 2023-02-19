@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      cursive: "sans-serif",
-      playfair: "sans-serif",
+       cursive: 'Dancing Script',
+      playfair: 'Playfair Display'
     },
     extend: {
       colors: {
